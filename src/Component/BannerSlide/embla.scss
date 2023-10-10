@@ -1,0 +1,29 @@
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+  
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+  
+}
+.banner_img {
+  width: 100%;
+}
+.productDiv{
+  z-index: 1;
+  margin-top: -150px;
+  margin-bottom: 1%;
+}
+
+.product_row{
+  display: flex;
+}
+
+
+
+
+

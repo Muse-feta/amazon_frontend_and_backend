@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Changa+One&family=Fira+Sans:wght@100&family=Kanit&family=Oswald:wght@700&family=Roboto:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&family=Changa+One&family=Fira+Sans:wght@100&family=Kanit&family=Oswald:wght@700&family=Roboto+Condensed&family=Roboto:wght@500&display=swap");
+
+.fotter {
+  background-color: #232f3e;
+}
+.fotter_first_section {
+  display: flex;
+  gap: 7%;
+  margin: 0 7%;
+}
+h2 {
+  color: white;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 19px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.fotter_links {
+  display: flex;
+  flex-direction: column;
+  gap: 1%;
+}
+.fotter_links a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  opacity: 0.8;
+  margin-bottom: 4%;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bolder;
+}
+
+.fotter_links a:hover {
+  text-decoration: underline;
+}
+
+.fotter_bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4%;
+  color: white;
+  margin-top: 3%;
+  padding-bottom: 3%;
+  opacity: 0.8;
+  font-family: "Archivo Black", sans-serif;
+}
+
+.border{
+    margin-top: -2%;
+    border: white 1px solid;
+    padding: 6px;
+}

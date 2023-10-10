@@ -1,0 +1,37 @@
+.subTotal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 100px;
+    padding: 30px;
+    background-color: #f3f3f3;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+}
+
+.subTotal_Counter{
+    font-size: 20px;
+}
+
+.subTotal_gift{
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+}
+
+.subTotal_gift input{
+    margin-right: 5px;
+    font-weight: 600;
+}
+
+.subTotal_gift_p{
+    font-size: 18px;
+}
+
+.subTotal_button{
+    padding:8px 0px;
+     background-color:#f0c14b ;
+}
+
+
